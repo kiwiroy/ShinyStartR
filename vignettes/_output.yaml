@@ -1,0 +1,7 @@
+rmarkdown::html_vignette:
+  keep_md: true
+  readme: false
+  md_extensions: +autolink_bare_uris+hard_line_breaks
+word_document:
+  toc: false
+  highlight: pygments

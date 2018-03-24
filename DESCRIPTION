@@ -1,0 +1,18 @@
+Package: ShinyStartR
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: c(
+  person("Roy", "Storey", role = c("aut", "cre"), email = "kiwiroy@users.noreply.github.com")
+  )
+Maintainer: Roy Storey <kiwiroy@users.noreply.github.com>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE, roclets = c("rd", "collate", "namespace", "vignette"))
+RoxygenNote: 6.0.1
+VignetteBuilder: knitr
+URL: https://github.com/kiwiroy/ShinyStartR
+BugReports: https://github.com/kiwiroy/ShinyStartR/issues

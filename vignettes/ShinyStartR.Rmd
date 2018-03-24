@@ -1,0 +1,27 @@
+---
+title: "R Shiny templates"
+author: "Roy Storey"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{R Shiny templates}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r knitting-needles, include = FALSE}
+knitr::opts_chunk$set(collapse = TRUE
+                      , comment = "#>"
+                      , echo = TRUE
+                      , eval = FALSE
+                      , tidy = TRUE
+                      )
+```
+
+## Description
+
+This is a description.
+
+## Details
+
+Here are some details.

@@ -1,0 +1,4 @@
+name: "shiny 101"
+description: >
+ Template for creating a shiny application
+create_dir: true
