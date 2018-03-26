@@ -5,7 +5,7 @@ Start a new with a templated R shiny application.
 ## Installation
 
 ```R
-devtools::install_github('kiwiroy/ShinyStartR')
+remotes::install_github('kiwiroy/ShinyStartR')
 ```
 
 ## Usage

@@ -1,6 +1,6 @@
 ---
 title: "R Shiny templates"
-author: "Roy Storey"
+author: "Marcus Davy, Roy Storey"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
@@ -20,8 +20,7 @@ knitr::opts_chunk$set(collapse = TRUE
 
 ## Description
 
-This is a description.
+Two shiny templates from the [PFRdataCraft](https://github.com/PlantandFoodResearch/PFRdataCraft) repository;
 
-## Details
-
-Here are some details.
+* [template1](https://github.com/PlantandFoodResearch/PFRdataCraft/tree/master/RWorkshops/DataVisualization/Part_2/examples/template1)
+* [template2](https://github.com/PlantandFoodResearch/PFRdataCraft/tree/master/RWorkshops/DataVisualization/Part_2/examples/template2)
