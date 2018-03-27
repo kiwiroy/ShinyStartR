@@ -4,7 +4,7 @@ require("shiny")
 
 test_that("Test ui.R", {
   ## Load ui
-  setwd("../..")
+  source("../../ui.R")
 
   ## ui functions, list in https://shiny.rstudio.com/tutorial/written-tutorial/lesson3/
   # ui_funs <- c("checkboxGroupInput","checkboxInput","dateInput","dateRangeInput",
