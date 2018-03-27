@@ -1,13 +1,15 @@
 Shiny template1
 ===============
 
-This template provides interface information, session information, and a help page to shiny documentation
+This template uses the R package [shinydashboard](https://cran.r-project.org/web/packages/shinydashboard/index.html) to provide an enhanced interface. It outputs interface information, session information, and a help page to shiny documentation.
+
+See [RStudio shinydashboard](https://rstudio.github.io/shinydashboard/) for more information.
 
 
 File structure
 --------------
 
-The template generates a [ui.R](https://github.com/PlantandFoodResearch/PFRdataCraft/blob/master/RWorkshops/DataVisualization/Part_2/examples/template1/ui.R) (user interface) [server.R](https://github.com/PlantandFoodResearch/PFRdataCraft/blob/master/RWorkshops/DataVisualization/Part_2/examples/template1/server.R) (server code), and [global.R](https://github.com/PlantandFoodResearch/PFRdataCraft/blob/master/RWorkshops/DataVisualization/Part_2/examples/template1/global.R) (global variables) and an optional [DESCRIPTION](https://github.com/PlantandFoodResearch/PFRdataCraft/blob/master/RWorkshops/DataVisualization/Part_2/examples/template1/DESCRIPTION) file. It also creates a subdirectory called [tests](https://github.com/PlantandFoodResearch/PFRdataCraft/tree/master/RWorkshops/DataVisualization/Part_2/examples/template1/tests) to run a test-suite of tests defined in [tests/testthat](https://github.com/PlantandFoodResearch/PFRdataCraft/tree/master/RWorkshops/DataVisualization/Part_2/examples/template1/tests/testthat).
+The template generates a [ui.R](https://github.com/PlantandFoodResearch/PFRdataCraft/blob/master/RWorkshops/DataVisualization/Part_2/examples/template2/ui.R) (user interface) [server.R](https://github.com/PlantandFoodResearch/PFRdataCraft/blob/master/RWorkshops/DataVisualization/Part_2/examples/template2/server.R) (server code), and [global.R](https://github.com/PlantandFoodResearch/PFRdataCraft/blob/master/RWorkshops/DataVisualization/Part_2/examples/template2/global.R) (global variables) and an optional [DESCRIPTION](https://github.com/PlantandFoodResearch/PFRdataCraft/blob/master/RWorkshops/DataVisualization/Part_2/examples/template2/DESCRIPTION) file. It also creates a subdirectory called [tests](https://github.com/PlantandFoodResearch/PFRdataCraft/tree/master/RWorkshops/DataVisualization/Part_2/examples/template2/tests) to run a test-suite of tests defined in [tests/testthat](https://github.com/PlantandFoodResearch/PFRdataCraft/tree/master/RWorkshops/DataVisualization/Part_2/examples/template2/tests/testthat).
 
 
 ```bash
@@ -34,7 +36,7 @@ total 51
 
 ## Usage
 
-1. Modify [ui.R](https://github.com/PlantandFoodResearch/PFRdataCraft/blob/master/RWorkshops/DataVisualization/Part_2/examples/template1/ui.R) (user interface) [server.R](https://github.com/PlantandFoodResearch/PFRdataCraft/blob/master/RWorkshops/DataVisualization/Part_2/examples/template1/server.R) (server code), and [global.R](https://github.com/PlantandFoodResearch/PFRdataCraft/blob/master/RWorkshops/DataVisualization/Part_2/examples/template1/global.R) (global variables) for your shiny application.
+1. Modify [ui.R](https://github.com/PlantandFoodResearch/PFRdataCraft/blob/master/RWorkshops/DataVisualization/Part_2/examples/template2/ui.R) (user interface) [server.R](https://github.com/PlantandFoodResearch/PFRdataCraft/blob/master/RWorkshops/DataVisualization/Part_2/examples/template2/server.R) (server code), and [global.R](https://github.com/PlantandFoodResearch/PFRdataCraft/blob/master/RWorkshops/DataVisualization/Part_2/examples/template2/global.R) (global variables) for your shiny application.
 
 2. Generate a suite of unit tests applicable to your shiny application
 by modifying the tests in [tests/testthat](https://github.com/PlantandFoodResearch/PFRdataCraft/tree/master/RWorkshops/DataVisualization/Part_2/examples/template2/tests/testthat)

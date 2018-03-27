@@ -1,0 +1,4 @@
+name: "shiny template2"
+description: >
+ Shinydashboard template for creating a shiny application
+create_dir: true
