@@ -4,13 +4,9 @@ require("shiny")
 
 test_that("Test ui.R", {
   ## Load ui
-  setwd("../..")
-  source("ui.R")
+  source("../../ui.R")
 
   ## ui functions, list in https://shiny.rstudio.com/tutorial/written-tutorial/lesson3/
-  # ui_funs <- c("checkboxGroupInput","checkboxInput","dateInput","dateRangeInput",
-  #              "fileInput","helpText","numericInput","radioButtons","selectInput",
-  #              "sliderInput","submitButton","textInput")
 
   ## All shiny functions
   shiny_objs  <- ls(pos=grep("shiny$", search()))
@@ -36,5 +32,5 @@ test_that("Test ui.R", {
 
   ## test of length of expected inputs/buttons
   expect_equal(length(input_tags), 5L)
-  expect_equal(length(button_tags), 1L)
+  expect_equal(length(button_tags), 4L)
   })

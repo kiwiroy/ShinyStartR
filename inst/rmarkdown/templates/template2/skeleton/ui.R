@@ -10,20 +10,20 @@ ui <- dashboardPage(skin=skin_colour,
                         fluidRow(
                           column(2, h6(" ")),
                           column(8, numericInput(
-                            inputId="numericIn", label=" numeric [0,10]", value=1,
+                            inputId="numericInput", label=" numeric [0,10]", value=1,
                             min=0, max=10, step=1
                           ))
                         ),
                         fluidRow(
                           column(2, h6(" ")),
                           column(8, textInput(
-                            inputId="textIn", label="text"
+                            inputId="textInput", label="text"
                           ))
                         ),
                         fluidRow(
                           column(2, h6(" ")),
                           column(8, radioButtons(
-                            inputId="radioIn", label="radio buttons",
+                            inputId="radioInput", label="radio buttons",
                             choices=LETTERS[1:3], selected="A"
                           ))
                         ),

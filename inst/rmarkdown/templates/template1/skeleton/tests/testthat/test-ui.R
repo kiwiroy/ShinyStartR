@@ -7,9 +7,6 @@ test_that("Test ui.R", {
   source("../../ui.R")
 
   ## ui functions, list in https://shiny.rstudio.com/tutorial/written-tutorial/lesson3/
-  # ui_funs <- c("checkboxGroupInput","checkboxInput","dateInput","dateRangeInput",
-  #              "fileInput","helpText","numericInput","radioButtons","selectInput",
-  #              "sliderInput","submitButton","textInput")
 
   ## All shiny functions
   shiny_objs  <- ls(pos=grep("shiny$", search()))
